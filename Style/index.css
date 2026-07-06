@@ -6,8 +6,12 @@
 img{
     max-width: 100%;
 }
-header .backgraound{
+header {
     background-color: #fff8f3FF;
+}
+.backgraound{
+    background-color: #fff8f3FF;
+    padding: 20px;
 }
 /* common styles */
 .common-btn{
@@ -65,6 +69,7 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .hero-left-p-1{
     font-size: 45px;
@@ -79,3 +84,32 @@ header nav ul {
     font-weight: 400;
     color: #757575FF;
 }
+/* about us section */
+.about-parent{
+    background-color: #fff8f3FF;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center;
+}
+.about-us-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+/*  */
+ .what-i-do-parent{
+    margin: 40px auto;
+    text-align: center;
+ }
+ .what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+ }
+ .what-i-do-card-container p{
+   color:#757575FF;
+ }
